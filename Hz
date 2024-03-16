@@ -1,0 +1,8 @@
+def corrector(string, width, symbol):
+    return f"{string:{symbol}^{width}}"
+
+string = input('Введите предложение: ')
+width = input('Введите кол-во символов: ')
+symbol = input('Введите символ: ')
+
+print(corrector(string, width, symbol))
